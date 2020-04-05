@@ -1,6 +1,6 @@
 import { Analyzer } from '../Summary';
 import { MatchData } from '../MatchData';
-import { MatchResult } from '../MatchResults'
+import { MatchResult } from '../MatchResults';
 
 export class WinsAnalysis implements Analyzer {
   constructor(public teamName: string) {}
@@ -19,6 +19,6 @@ export class WinsAnalysis implements Analyzer {
       }
     }
 
-    return `Team ${this.teamName} won ${wins} games`
+    return `Team ${this.teamName} won ${wins} games`;
   }
 }
